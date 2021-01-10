@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FUNDAMENTOS DE TELECOMUNICACIONES</title>
+	<meta charset="UTF-8"/>
+	<link href="CSS/unidad3_estilo.css" rel="stylesheet" >
+  </head>
+  
+  <body>
+  
+  
+  <header>
+  <div id="logo">
+    <img src="IMG/logo.png" alt="logo" height="150" width="150" ></a>
+  </div>
+  
+  <nav class="menu">
+  <ul>
+  
+  <li> <a href="index.html">Inicio</a> </li>
+  <li> <a href="Unidad1.html">Unidad 1</a> </li>
+  <li> <a href="Unidad2.html">Unidad 2</a> </li>
+  <li> <a href="Unidad3.html">Unidad 3</a> </li>
+  <li> <a href="Unidad4.html">Unidad 4</a> </li>
+  <li> <a href="Unidad5.html">Unidad 5</a> </li>
+  <li> <a href="Unidad6.html">Unidad 6</a> </li>
+
+  
+  </ul>
+  </nav>
+  
+  </header>
+  
+  <section id="materia">
+      <h1> <b> Instituto Tegnologico Superior de Poza Rica </b> </h1>
+      <img src="IMG/seccion1.jpg" height="400" width="300">
+	  <h2> FUNDAMENTOS DE TELECOMUNICACIONES </h2>
+      
+  </section>
+  
+  <section id="Unidad3">
+      <h3> Unidad 3 Modulacion. </h3>
+  </section>
+  
+  <section id="subtema3.1">
+	    <h3> 3.1 Tecnicas de Modulacion Analogicas: Modulacion en Amplitud (AM) y Modulacion en Frecuencia (FM) </h3>
+		<p> Las tres técnicas de modulación analógica son:</p>
+		<p>•	Modulación de la amplitud (AM o amplitud modulada). La amplitud modulada es el cambio de amplitud de una señal eléctrica de alta frecuencia (HF) modulada por una señal eléctrica de baja frecuencia (BF), como resultado se obtiene: la frecuencia portadora de RF más las dos bandas laterales (superior e inferior) que llevan la información de audio.</p>
+		<img src="IMG/modulacion_amplitud.jpg"height="150" width="350">
+		<p> •	Modulación de la frecuencia (FM o frecuencia modulada). La modulación de frecuencia,  o frecuencia modulada (FM),  es una técnica de modulación angular que permite transmitir información a través de una onda portadora variando su frecuencia.</p>
+		<img src="IMG/modulacion_frecuencia.jpg" height="150" width="350">
+		<p> •	Modulación de la fase (PM o fase modulada). Es una modulación que se caracteriza porque la fase de la onda portadora varía en forma directamente proporcional de acuerdo con la señal moduladora. La modulación de fase no suele ser muy utilizada porque se requieren equipos de recepción más complejos que los de frecuencia modulada.</p>
+		<img src="IMG/modulacion_fase.jpg" height="150" width="350">
+		<p>La mayoría de los sistemas de comunicación utilizan alguna de estas tres técnicas de modulación básicas, o una combinación de ellas. Las Radios están basadas en AM y FM siendo la FM la de mejor calidad debido a la ventaja que tiene por manejar mayores frecuencias y mayores anchos de banda que mejoran la percepción por el contenido que se puede transmitir.</p>
+		
+  </section>
+      
+  
+  <section id="subtema3.2">
+      <h3> 3.2 Tecnicas de Modulacion Digital: Modulacion por Desplazamiento de Amplitud (ASK), Modulacion por Desplazamiento de Frecuencia (FSK), Modulacion por Desplazamiento de Fase (PSK) y Modulacion de Amplitud en Cuadratura (QAM) </h3>
+	  <p> Los siguientes son algunos de casos extremos de estas técnicas:	  </p>
+	  <p>•	Modulación por desplazamiento de amplitud (ASK, Amplitude Shift Keying)</p>
+	  <p>Es una forma de modulación en la cual se representan los datos digitales como variaciones de amplitud de la onda portadora en función de los datos a enviar. La amplitud de una señal portadora analógica varía conforme a la corriente de bit (modulando la señal), manteniendo la frecuencia y la fase constante. El nivel de amplitud puede ser usado para representar los valores binarios 0 y 1. Podemos pensar en la señal portadora como un interruptor ON/OFF. En la señal modulada, el valor lógico 0 es representado por la ausencia de una portadora, así que da ON/OFF la operación de pulsación y de ahí el nombre dado.</p>
+	  <p>Como la modulación AM, ASK es también lineal y sensible al ruido atmosférico, distorsiones, condiciones de propagación en rutas diferentes en la PSTN, entre otros factores. Esto requiere una amplitud de banda excesiva y es por lo tanto un gasto de energía. Tanto los procesos de modulación ASK como los procesos de demodulación son relativamente baratos. La técnica ASK también es usada comúnmente para transmitir datos digitales sobre la fibra óptica.</p>
+	  <p>Para los transmisores LED, el valor binario 1 es representado por un pulso corto de luz y el valor binario 0 por la ausencia de luz. Los transmisores de láser normalmente tienen una corriente "de tendencia" fija que hace que el dispositivo emita un nivel bajo de luz. Este nivel bajo representa el valor 0, mientras una onda luminosa de amplitud más alta representa el valor binario 1. </p>
+	  <img src="IMG/convercion.jpg" height="150" width="350">
+	  <p>•	Modulación por desplazamiento de frecuencia (FSK, Frecuency Shift Keying)</p>
+	  <p>Es una técnica de modulación para la transmisión digital de información utilizando dos o más frecuencias diferentes para cada símbolo. La señal moduladora solo varía entre dos valores de tensión discretos formando un tren de pulsos donde uno representa un "1" o "marca" y el otro representa el "0" o "espacio".</p>
+	  <p>En la modulación digital, a la relación de cambio a la entrada del modulador se le llama bit-rate y tiene como unidad el bit por segundo (bps).</p>
+	  <p>A la relación de cambio a la salida del modulador se le llama baud-rate. En esencia el baud-rate es la velocidad o cantidad de símbolos por segundo.</p>
+	  <p>•	Modulación por desplazamiento de fase (PSK, Phase Shift Keying).</p>
+	  <p>La modulación por desplazamiento de fase o PSK (Phase Shift Keying) es una forma de modulación angular que consiste en hacer variar la fase de la portadora entre un número determinado de valores discretos. La diferencia con la modulación de fase convencional (PM) es que mientras en esta la variación de fase es continua, en función de la señal moduladora, en la PSK la señal moduladora es una señal digital y, por tanto, con un número de estados limitado.</p>
+	  <p>•	Modulación de amplitud en cuadratura</p>
+	  <p>Es una técnica que transporta dos señales independientes, mediante la modulación, tanto en amplitud como en fase, de una señal portadora.</p>
+	  <p>Esto se consigue modulando una misma portadora, desfasada en 90°. La señal modulada en QAM está compuesta por la suma lineal de dos señales previamente moduladas en doble banda lateral con portadora suprimida.</p>
+	  <p>Se asocian a esta tecnología aplicaciones tales como:</p>
+	  <p>•	Módems telefónicos para velocidades superiores a los 2400 bps.</p>
+	  <p>•	Transmisión de señales de televisión, microondas, satélite (datos a alta velocidad por canales con ancho de banda restringido).</p>
+	  <p>•	Modulación con codificación reticulada, que consigue velocidades de transmisión muy elevadas combinando la modulación con la codificación de canal.</p>
+	  <p>•	Módems ADSL que trabajan a frecuencias comprendidas entre 24 kHz y 1104 kHz, alcanzándose velocidades de datos de hasta 9 Mb/s.</p>
+	  
+	  
+  </section>
+  
+  <section id="subtema3.3">
+      <h3> 3.3 Conversion Analogico-Digital: Muestreo, Cuantizacion y Codificacion </h3>
+      <p> MUESTREO	  </p>
+	  <p>Consiste en tomar muestras (medidas) del valor de la señal n veces por segundo, con lo que tendrán n niveles de tensión en un segundo.</p>
+	  <p>Para un canal telefónico de voz es suficiente tomar 8.000 muestras por segundo, o, lo que es lo mismo, una muestra cada 125 μseg. Esto es así porque, de acuerdo con el teorema de muestreo, si se toman muestras de una señal eléctrica continua a intervalos regulares y con una frecuencia doble a la frecuencia máxima que se quiera muestrear, dichas muestras contendrán toda la información necesaria para reconstruir la señal original.</p>
+	  <p>Como en este caso tenemos una frecuencia de muestreo de 8 kHz (período 125 μseg), sería posible transmitir hasta 4 kHz, suficiente por tanto para el canal telefónico de voz, donde la frecuencia más alta transmitida es de 3,4 kHz. El tiempo de separación entre muestras (125 μseg) podría ser destinado al muestreo de otros canales mediante el procedimiento de multiplexación por división de tiempo (TDM).</p>
+	  <img src="IMG/muestreo.jpg" height="150" width="350">
+	  <p>CUANTIFICACIÓN</p>
+	  <p>Por eso en la cuantificación se asigna un determinado valor discreto a cada uno de los niveles de tensión obtenidos en el muestreo. Como las muestras pueden tener un infinito número de valores en la gama de intensidad de la voz, gama que en un canal telefónico es de aproximadamente 60 dB, o, lo que es lo mismo, una relación de tensión de 1000:1, con el fin de simplificar el proceso, lo que se hace es aproximar al valor más cercano de una serie de valores predeterminados.</p>
+	  <img src="IMG/cuantizacion.jpg" height="150" width="350">
+	  <p>CODIFICACIÓN</p>
+	  <p>En la codificación, a cada nivel de cuantificación se le asigna un código binario distinto, con lo cual ya tenemos la señal codificada y lista para ser transmitida. La forma de una onda sería la indicada como (f). En telefonía, la señal analógica vocal con un ancho de banda de 4KHz se convierte en una señal digital de 1024 Kbps. En telefonía pública se suele utilizar transmisión plesiócrona, donde, si se usa un E1, podrían intercalarse otras 31 señales adicionales. Se transmiten, así, 32x64000 = 2.048.000 bps.</p>
+	  <img src="IMG/codificacion.jpg" height="150" width="350">
+	  
+  </section>
+  
+  <section id="subtema3.4">
+      <h3> 3.4 Codigos de Linea: RZ, NRZ, NRZ-L, AMI, Speudo-Temaria, Manchester, Manchester Diferencial, B8ZS y HDB3 Entre Otros </h3>
+	  <p> Es un código utilizado en un sistema de comunicación para propósitos de transmisión.	  </p>
+	  <p>Los códigos en línea son frecuentemente usados para el transporte digital de datos. Estos códigos consisten en representar la señal digital transportada respecto a su amplitud respecto al tiempo. La señal está perfectamente sincronizada gracias a las propiedades específicas de la capa física. La representación de la onda se suele realizar mediante un número determinado de impulsos. Estos impulsos representan los 1s y los 0s digitales. Los tipos más comunes de codificación en línea son el unipolar, polar, bipolar y Manchester.</p>
+	  <p>Después de la codificación en línea, la señal se manda a través de la capa física. A veces las características de dos canales aparentemente muy diferentes son lo suficientemente parecidos para que el mismo código sea usado por ellos.</p>
+	  <p>La señal en línea codificada puede tener las siguientes utilidades en diversos campos:</p>
+	  <p>•	Puede ser puesta directamente en una transmisión de línea, en forma de variaciones de voltaje o corriente.<br>
+•	Está lo bastante modulada para crear una señal de radiofrecuencia que puede ser mandada libre en el espacio<br>
+•	Puede ser usada para encender y apagar una luz en Redes Inalámbricas Ópticas (en inglés Free Space Optics – FSO-), más conocidas como infrarrojos.<br>
+•	Puede convertirse en campos magnéticos en un disco duro.<br>
+•	Puede ser impresa para crear códigos de barras.
+</p>
+      <h4>CODIFICADOR CMI.</h4>
+	  <p>Al codificador CMI se le aplica la señal de datos NRZ y el bit clock de transmisión. A partir de esto último se obtiene también un clock de frecuencia doble, precisado para el funcionamiento interno del codificador.</p>
+	  <p>Si el dato en entrada es 0, en la salida CMI se obtiene una forma de onda correspondiente a la señal de clock. Cuando el dato en entrada es 1 a la salida CMI se obtiene una forma de onda con niveles altos y bajos alternados a frecuencia de cifra. Cuando los datos son casualmente 0 ó 1, en la salida CMI se tendrá:</p>
+	  <p>1.       Un periodo de clock en correspondencia del "0"
+2.       Alternativamente un nivel alto o bajo. Por una duración equivalente al intervalo de bit, si el dato es "1".
+</p>
+      <h4>NRZ.</h4>
+	  <p>Están caracterizados por mantener constante el valor de la señal de línea durante todo el intervalo Tb. Para efectos de asimilar la información proporcionada por la simulación al final del módulo, se considerarán dos tipos de codificación de este tipo:</p>
+	  <p>1. NRZp (No retorno a Cero-Polar)</p>
+	  <p>Al símbolo “1” se le asigna un valor alto de señal (V) y al símbolo “0” se le asigna el valor opuesto, es decir, -V. </p>
+	  <img src="IMG/nrzp.jpg" height="150" width="350">
+	  <h4> NRZu (No retorno a Cero-Unipolar)</h4>
+	  <p>Al símbolo “1” se le asigna un valor alto de señal (V) y al símbolo “0” se le asigna el valor cero, es decir, 0V.</p>
+	  <img src="IMG/nrzu.jpg" height="150" width="350">
+	  <p>Características del código Unipolar:</p>
+	  <p>
+•	Es muy sencillo de implementar circuitamente.<br>
+•	Es imposible la extracción del reloj si NRZ (hay que transmitir el reloj)<br>
+•	Existe una componente muy alta de DC<br>
+•	Ancho de banda de transmisión muy alto<br>
+•	Poco inmune a interferencia por ruido e Inter simbólica.
+</p>
+      <h4>RZ</h4>
+	  <p>Se emplea el RZ (Retourn to Zero) polar. En este caso se tiene tensión positiva en una parte de la duración de un 1 lógico, y cero tensiones durante el resto del tiempo. Para un 0 lógico se tiene tensión negativa parte del tiempo y el resto del tiempo del pulso la tensión es cero.</p>
+	  <h4>RZ POLAR</h4>
+	  <p>Este código si es auto sincronizante debido a que en reloj (clock) del receptor queda sincronizado por la cadencia de los pulsos que llegan del transmisor puesto que todos los bits tienen una transición, esto permite identificar a cada bit en una larga cadena de unos o ceros.</p>
+	  <h4>RZ BIPOLAR</h4>
+	  <p>A la ventaja de ser auto sincronizante se le contrapone el hecho de requerir mayor ancho de banda, pues los pulsos son de menor duración que en otros códigos, por ejemplo, NRZ, lo cual es una gran desventaja.</p>
+	  <img src="IMG/rz_bipolar.jpg" height="150" width="350">
+	  <h4>CÓDIGO MANCHESTER.</h4>
+	  <p>En este código siempre hay una transición en la mitad del intervalo de duración de los bits. cada transición positiva representa un 1 y cada transición negativa representa un 0.</p>
+	  <p>Cuando se tienen bits iguales y consecutivos se produce una transición en el inicio del segundo bit la cual no es tenida en cuenta en el receptor al momento de decodificar, solo las transiciones separadas uniformemente en el tiempo son las que son consideradas por el receptor.</p>
+	  <p>En está codificación no se tienen en cuanta los niveles de tensión, sino que solo se consideran las transiciones positivas y negativas. Esta técnica posibilita una transición por bit, lo cual permite autosincronismo.</p>
+	  <p>Se puede eliminar la componente continua si se emplean valores positivos y negativos para representar los niveles de la señal.</p>
+	  <img src="IMG/manchester.jpg" height="150" width="350">
+	  <h4> Código Manchester Diferencial </h4>
+	  <p>Durante la codificación todos los bits tienen una transición en la mitad del intervalo de duración de los mismos, pero solo los ceros tienen además una transición en el inicio del intervalo.</p>
+	  <p>En la decodificación se detecta el estado de cada intervalo y se lo compara con el estado del intervalo anterior. sí ocurrió un cambio de la señal se decodifica un 1 en caso contrario se decodifica un 0.</p>
+	  <p>El código Manchester diferencial tiene las mismas ventajas de los códigos Manchester con la adición de las ventajas derivadas de la utilización de una aproximación diferencial.</p>
+	  
+  </section>
+  
+  <section id="subtema3.7">
+      <h3> 3.7 Modem, Estandares y Protocolos </h3>
+	  <h4>  ESTÁNDARES	  </h4>
+	  <p>Son recomendaciones estándares para la operación de los módems, han sido establecidas por varias organizaciones y corporaciones.</p>
+	  <p>Los estándares cubren la modulación y técnica de transmisión, usados por los módems, así como otros elementos de su operación.</p>
+	  <p>Hasta la mitad de los 80's todos los módems en Estados Unidos usaban técnicas de modulación basados en estándares de los laboratorios Bell con velocidades de 300 hasta 1200 bps. Estos son conocidos como Bell103 y Bell 212A, respectivamente.</p>
+	  <p>Estos módems trabajan bien dentro de Estados Unidos. Otros países como Europa por instancia, usan diferentes estándares. El estándar internacional es llamado ITU-T, International Telecommunications Unión-Telecommunications Sector (antes conocido como CCITT Comité Consultivo Internacional de Telegrafía y Telefonía).</p>
+	  <p>Sumado a los estándares de velocidad, existen también estándares para verificación, errores y compresión de datos.</p>
+	  <p>A continuación, se muestra una lista de los estándares de facto e internacionales con sus características operacional</p>
+	  <p>•	ü V.22. Proporciona 1200 bits por segundo a 600 baudios (cambios de estado por segundo).
+•	ü V.22bis. El primer estándar mundial verdadero, permite 2400 bits por segundo a 600 baudios.<br>
+•	ü V.32. Proporciona 4800 y 9600 bits por segundo a 2400 baudios.<br>
+•	ü V.32bis. Proporciona 14,400 bits por segundo o baja a 12,000, 9600, 7200, y 4800 bits por segundo.<br>
+•	ü V.32terbo. Proporciona 19,200 bits por segundo o baja a 12,000, 9600, 7200, y 4800 bits por segundo; puede operar a mayores tasas de transmisión de datos con compresión, no fue estándar de CCITT/ITU.<br>
+•	ü V.34.Proporciona 28,800 bits por segundo o baja a 24,000 y 19,200 bits por segundo y compatibilidad hacia atrás con V.32 y V.32bis.<br>
+•	ü V.34bis. Proporciona hasta 33,600 bits por segundo o baja a tasas de transferencia de 31,200 o V.34.<br>
+•	ü V.35. Interfaz troncal de paquetes entre un dispositivo de acceso a una red y una red a tasas de transmisión de datos mayores a 19.2 Kbps. El V.35 puede usar los anchos de banda de varios circuitos telefónicos como grupo. Existen Transformadores de Género y Adaptadores V.35.<br>
+•	ü V.42. La misma tasa de transferencia que V.32, V.32bis y otros estándares, pero con mejor corrección de errores y por tanto más fidedigno.<br>
+•	ü V.90. Proporciona hasta 56,000 bits por segundo corriente abajo (pero algo menos en la práctica). Derivado de la tecnología x2 de 3Com (US Robotics) y la tecnología K56flex de Rockwell.
+</p>
+      <h4>PROTOCOLOS.</h4>
+	  <p>Los Protocolos en un ambiente de comunicación de datos sirve para dirigir la trasferencia de información entre dos entidades de comunicación. Para ambiente MAINFRAME, redes locales o servicios públicos son las redes de paquetes, se usan los módems protocolos, para dirigir el flujo de mensajes entre las maquinas en conversación. Para dirigir el intercambio de mensajes entre PCs independientemente, usando circuitos telefónicos. Estos protocolos garantizan la transmisión y recepción de estos mensajes de forma segura y ordenada.</p>
+	  <p>Protocolos más Utilizados:</p>
+	  <p>1.	XMODEM: Referenciado con CHECKSUN. Envía bloques de 128 bytes, uno es de CHECK (verifica).<br>
+2.	XMODEM _ CRC: Envía bloques de 128 bytes, con dos bytes de CRC (Cyclic Redundancy Checking - Rutina de verificación de Errores).<br>
+3.	XMODEM 1K: Envía bloques de 1K con dos bytes de verificación CRC.<br>
+4.	YMODEM batch: Envía bloques de 1024b bytes con dos bytes CRC. Hace la verificación de cada bloque trasmitido y envía fin de transmisión y repite el proceso en el próximo archivo.<br>
+5.	YMODEM G: Protocolo "Streaming " donde los módems tienen su propio protocolo de corrección. Si un archivo es enviado y errores son detectados, la transferencia es interrumpida.<br>
+6.	ZMODEM: Protocolo " Full Streaming" que permite detección y corrección de errores. Rápido y confiable, indicado para líneas deficientes.<br>
+7.	SEALINK: Protocolo " Full Duplex" derivado del padrón XMODEM.<br>
+8.	KERMIT: Posee la excepcional característica de integrar varios tipos de computadores (PCs y Mainframe). Gobierna la trasferencia de informaciones de sistemas con caracteres de 7 bits. No es recomendable para transferencias entre PCs.<br>
+9.	COMPUSERVE: Su módem protocolo privado es: B Y QUICKB.<br>
+10.	WINDOWED Y XMODEM: Usado a través de redes de conmutación de paquetes como TYMNET y TELENET.<br>
+11.	TELINK: Usado para transferencia "multi-file " con servicio de correo electrónico FIDONET.<br>
+12.	MODEM7: Comunicación con sistemas CP/M.
+</p>
+     
+  </section>
+ 
+  
+
+  <footer>
+    <h4> Copyright &copy; 2020 Propiedad de Edwin Aguilar Ortiz SA. DE CV.
+	</h4>
+  
+  </footer>
+
+
+  </body>
+
+</html>
